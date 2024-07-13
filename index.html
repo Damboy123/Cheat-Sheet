@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources\CSS\index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <DIV CLASS="TITLE">
+        <H1>HTML CHEATSHEET</H1>
+    </DIV>
+    <div class="list">
+        <ul>
+            <li> <a href="#htmlanatomy">HTML ANATOMY</a></li>
+            <li><a href="#tags">TAGS</a></li>
+            <li><a href="#tablespan">Important Table Attributes</a></li>
+        </ul>
+    </div>
+    <div id="htmlanatomy">
+        <table>
+            <H2>HTML ANATOMY</H2>
+            <thead>
+                <th colspan="3">HTML ELEMENT</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;</td>
+                    <td>p</td>
+                    <td>&gt;</td>
+                    <td>this is an open html tag</td>
+                </tr>
+                <tr>
+                    <td>&lt;/</td>
+                    <td>p</td>
+                    <td>&gt;</td>
+                    <td>this is a close html tag</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>&lt;p&gt;</b>This is a paragraph<b>&lt;/p&gt;</b></td>
+                    <td > together, they are called an html element</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="tags">
+        <h2>HTML TAGS</h2>
+        <table >
+            <thead>
+                <th>Opening Tag</th>
+                <th>Content</th>
+                <th>Closing Tag</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b >&lt;p&gt;</b></td>
+                    <td>words</td>
+                    <td><b>&lt;/p&gt;</b></td>
+                    <td>this provides a paragraph in a webpage</td>
+                </tr>
+                <tr>
+                    <td ><b> &lt;html&gt;</b></td>
+                    <td ><b>&lt;body&gt; </b> ...  <b >&lt;/body&gt;</b> </td>
+                    <td ><b>&lt;/html&gt;</b></td>
+                    <td>this is the root element of an HTML document</td>
+                </tr>
+                <tr>
+                    <td ><b>&lt;head&gt;</b></td>
+                    <td >links like css, &lt;title&gt;tag</td>
+                    <td ><b>&lt;/head&gt;</b></td>
+                    <td>this contains the metadata of the webpage</td>
+                </tr>
+                <tr>
+                    <td ><b>&lt;title&gt;</b></td>
+                    <td >Title of Webpage</td>
+                    <td ><b>&lt;/title&gt;</b></td>
+                    <td>title in the browser title bar</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;body&gt;</b></td>
+                    <td><b>&lt;table&gt; .... &lt;/table&gt;</b></td>
+                    <td><b>&lt;/body&gt;</b></td>
+                    <td>contains all the contents of HTML document</td>
+                </tr>
+                <tr>
+                    <td><b >&lt;table&gt;</b></td>
+                    <td><b>thead, th, tbody,tr,td</b></td>
+                    <td><b>&lt;/table&gt;</b></td>
+                    <td>this makes a table in html</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;thead&gt;</b></td>
+                    <td><b>&lt;th&gt;... &lt;/th&gt;</b></td>
+                    <td><b>&lt;/thead&gt;</b></td>
+                    <td>use to group the header of the table</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;th&gt;</b></td>
+                    <td>Table header</td>
+                    <td><b>&lt;/th&gt;</b></td>
+                    <td>this provides a table header data</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tbody&gt;</b></td>
+                    <td><b>&lt;tr&gt;... &lt;/tr&gt;</b></td>
+                    <td><b>&lt;/tbody&gt;</b></td>
+                    <td>use to group the body of the table</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tr&gt;</b></td>
+                    <td><b>&lt;td&gt;</b>... <b>&lt;/td&gt;</b></td>
+                    <td><b>&lt;/tr&gt;</b></td>
+                    <td>use to provide a row of the table</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;td&gt;</b></td>
+                    <td></td>
+                    <td><b>&lt;/td&gt;</b></td>
+                    <td>use to give data to the row of the table</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;a href="link to another webpage or another area of the site"&gt;</b></td>
+                    <td>This is a link!</td>
+                    <td><b>&lt;/a&gt;</b></td>
+                    <td>provides link to other webpage</td>
+                </tr>
+                <tr>
+                    <td><b>&lt;video src = "video url or address" width ="320" height = "240" controls&gt;</b></td>
+                    <td>Video not Supported</td>
+                    <td><b>&lt;/video&gt;</b></td>
+                    <td>use to display video</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>&lt;img src="image-location.png" alt = "This is an image"/&gt;</b></td>
+                    <td>display images</td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+    <div id="tablespan">
+        <h2>Table Attributes</h2>
+        <div>
+            <table>
+                <thead>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>rowspan</b></td>
+                        <td>defines how many row a td element spans</td>
+                    </tr>
+                    <tr>
+                        <td><b>colspan</b></td>
+                        <td>defines how many columns a td element spans</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Example Table</h2>
+            <table>
+                <thead>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3">this is an example of colspan that has a value of 3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">This is an example of rowspan that has a value of 3</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+        
+    </div>
+</body>
+</html>
